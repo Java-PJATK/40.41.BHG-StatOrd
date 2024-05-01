@@ -20,8 +20,6 @@ Static initializer block is executed only once: when a class is loaded by the JV
 
 The order of initialization can be seen from the output of the following program:  
 
-with main in class Main:
-
 ## Listing 41 BHG-StatOrd/Main.java  
 
 ```java
@@ -52,7 +50,7 @@ public class Stats {
     }
 }
 ```
-
+with main in class `Main`:
 
 ```java
 public class Main {
