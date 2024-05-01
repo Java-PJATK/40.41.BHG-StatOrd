@@ -3,7 +3,7 @@
 
 Cont. from [39.AFL-FunRecur](https://github.com/Java-PJATK/39.AFL-FunRecur)  
 
-##8.6 Initializing blocks  
+## 8.6 Initializing blocks  
 
 Inside the definition of a class, we can put static and non-static initialization blocks.   
 
