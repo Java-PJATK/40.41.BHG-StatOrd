@@ -1,7 +1,7 @@
 # BHG-StatOrd
 40 BHG-StatOrd/Stats.java 73 41 BHG-StatOrd/Main.java 74
 
-Cont. from (39.AFL-FunRecur)[https://github.com/Java-PJATK/39.AFL-FunRecur]  
+Cont. from [39.AFL-FunRecur](https://github.com/Java-PJATK/39.AFL-FunRecur)  
 
 ##8.6 Initializing blocks  
 
