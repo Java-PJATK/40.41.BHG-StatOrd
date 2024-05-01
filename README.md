@@ -7,12 +7,12 @@ Cont. from [39.AFL-FunRecur](https://github.com/Java-PJATK/39.AFL-FunRecur)
 
 Inside the definition of a class, we can put static and non-static initialization blocks.   
 
-They have the form of a block of code enclosed in curly braces; in case of static initializer block we add keyword static if front of it.  
+They have the form of a block of code enclosed in curly braces; in case of static initializer block we add keyword `static` if front of it.  
 
 The block must be put outside of any functions!  
 
 The body of the non-static initializer block will be executed in the process of creating any object after the object itself has been created and after its members have
-been initialized with default values but before entering a constructor.  
+been initialized with default values but _before_ entering a constructor.  
 
 Therefore, we can put into the initializer a code which should be executed at the beginning of any of the overloaded constructors.  
 
@@ -65,9 +65,9 @@ public class Main {
 which outputs
 
 ```
-static init: sino=0 siyes=2 fin=0
-nonstatic init: sino=0 siyes=2 fin=3
-constructor: sino=1 siyes=2 fin=3
+           static init: sino=0 siyes=2 fin=0
+        nonstatic init: sino=0 siyes=2 fin=3
+           constructor: sino=1 siyes=2 fin=3
 ```
 
 Next: [Listing 42 BHF-StatBlocks](https://github.com/Java-PJATK/42.BHF-StatBlocks)  
